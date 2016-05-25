@@ -1,2 +1,5 @@
-sieve:	main.cpp ParalleEratosteneSieve.cpp 
-	g++ --std=c++11 -O3 -pthread main.cpp ParalleEratosteneSieve.cpp  -o Sieve 
+sieve:	EratosteneSieve.cpp ParalleEratosteneSieve.cpp 
+	g++ --std=c++11 -O3 -pthread EratosteneSieve.cpp ParalleEratosteneSieve.cpp  -o EratosteneSieve 
+	
+clean:
+	rm -f sieve
