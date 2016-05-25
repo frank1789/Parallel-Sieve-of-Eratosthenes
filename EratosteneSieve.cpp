@@ -8,8 +8,6 @@
 #include "ParallelEratosteneSieve.h"
 #include "TimeMeter.hh"
 
-#define  MAX_THREAD 100
-
 using namespace std;
 
 std::mutex io_mutex;
